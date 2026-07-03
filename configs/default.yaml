@@ -1,0 +1,20 @@
+project:
+  name: mnist-ai-match-game
+  seed: 42
+
+training:
+  data_dir: data
+  checkpoint_dir: checkpoints
+  epochs: 5
+  batch_size: 128
+  learning_rate: 0.001
+  weight_decay: 0.0001
+  num_workers: 2
+
+game:
+  window_width: 1000
+  window_height: 760
+  num_triples: 10
+  tray_size: 7
+  error_rate: 0.0
+  hidden_mode: false
